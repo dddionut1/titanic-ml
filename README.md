@@ -1,15 +1,26 @@
-﻿# Titanic ML - Survival Prediction
+﻿# Titanic Survival Prediction 🚢
 
-Proiect ML care prezice supraviețuirea pasagerilor Titanic.
-
-## Modele folosite
-- Logistic Regression: 81%
-- Random Forest: 79.9%
-- KNN cu Feature Scaling: 78.8%
-
-## Tehnologii
-- Python, scikit-learn, Pandas, NumPy
+Proiect de Machine Learning care prezice supraviețuirea 
+pasagerilor Titanicului folosind algoritmi de clasificare.
 
 ## Rezultate
-Logistic Regression a obținut cea mai bună acuratețe (81%)
-pe setul de test de 179 pasageri.
+
+| Model | Acuratețe |
+|-------|-----------|
+| Logistic Regression | 81.0% |
+| Random Forest | 79.9% |
+| KNN + Feature Scaling | 78.8% |
+| Decision Tree | 75.4% |
+
+## Tehnologii folosite
+- Python 3.12
+- scikit-learn
+- Pandas
+- NumPy
+- Matplotlib
+
+## Ce face proiectul
+- Curățare date (valori lipsă, encoding categorii)
+- Comparare 4 modele ML
+- Feature Scaling
+- Evaluare cu accuracy, precision, recall
