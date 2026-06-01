@@ -1,6 +1,6 @@
 ﻿# Titanic Survival Prediction 🚢
 
-Proiect de Machine Learning care prezice supraviețuirea 
+Model Machine Learning care prezice supraviețuirea 
 pasagerilor Titanicului folosind algoritmi de clasificare.
 
 ## Rezultate
